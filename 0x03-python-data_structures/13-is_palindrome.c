@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 void reverse(listint_t **head);
-int copare_lists(listint_t *head, listint_t *middle, int len);
+int compare_lists(listint_t *head, listint_t *middle, int len);
 
 /**
  * is_palindrome - checks if singly linked list is palindrome
@@ -30,7 +30,7 @@ int is_palindrom(listint_t **head)
 	if (len % 2 != 0 && len != 1)
 	{
 		middle = middle->next;
-		len - len - 1;
+		len = len - 1;
 	}
 	reverse(&middle);
 	i = compare_lists(*head, middle, len);
