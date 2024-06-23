@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""script that deletes all state object with name
-containing the letter a from the database hbtn_0e_6_us"""
+"""script that deletes all state object
+with namecontaining the letter a from
+the database hbtn_0e_6_us"""
 
 
 from sys import argv
